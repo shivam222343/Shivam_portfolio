@@ -9,7 +9,7 @@ export default function Home() {
          <div className="title h-[50%] w-[90vw] flex flex-col justify-center items-center">
           <div className="welcome text-xl text-white">Welcome to my</div>
           <div className='reletive'>
-          <div className="box1 overflow-hidden absolute text-5xl text-pink-500 font-semibold">PORTFOLIO</div>
+          <div className="box1 overflow-hidden absolute text-5xl text-rose-700 font-semibold">PORTFOLIO</div>
           <div className="box2 text-5xl text-slate-600 font-semibold">PORTFOLIO</div>
           </div>
          </div>

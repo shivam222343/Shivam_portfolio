@@ -5,7 +5,7 @@ import img from "./logo.jpg"
 export default function Header(style) {
   return (
     <>
-     <div className="navbar h-24 w-screen bg-gradient-to-tl from-black to-blue-950 flex justify-between items-center p-5 ">
+     <div className="navbar h-24 w-screen bg-gradient-to-tl from-black to-blue-950 flex justify-between items-center p-[1vw] ">
        <div className='h-24 w-auto flex justify-center items-center'> 
         <div className="logobox h-16 w-16 rounded-full overflow-hidden">
             <img src={img} alt="" />
