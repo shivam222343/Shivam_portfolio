@@ -1,0 +1,16 @@
+.box1{
+    animation: wipe 2s;
+    animation-iteration-count: infinite;
+    border-right: 2px solid white;
+    overflow: hidden;
+}
+
+  
+  @keyframes wipe{
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 70vw;
+    }
+  }
