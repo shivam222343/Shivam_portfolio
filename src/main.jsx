@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Pop from './components/Pop.jsx'
 
 
 //Components\
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:"Contact",
         element:<Contact/>,
+      },
+      {
+        path:"Details",
+        element:<Pop/>,
       },
     ]
   }
