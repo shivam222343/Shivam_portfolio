@@ -13,7 +13,7 @@ export default function Home() {
             <div className="box2  md:text-7xl mt-2 p-2 text-5xl text-slate-600 font-semibold">PORTFOLIO</div>
           </div>
         </div>
-        <div className="logobox md:h-full md:flex md:justify-center md:items-center  h-[50%] w-[90vw]">
+        <div className="logobox md:h-full md:flex md:justify-start md:items-center  h-[50%] w-[90vw]">
           <div className="logo  rounded-full overflow-hidden">
             <img className='md:h-[30vw] h-[100%]' src={logo} alt="" />
           </div>
