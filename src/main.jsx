@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Pop from './components/Pop.jsx'
+import Info from './components/Info.jsx'
 
 
 //Components\
@@ -37,6 +38,9 @@ const router = createBrowserRouter([
       },
       {
         path:"Details",
+        element:<Info/>,
+      },
+      {path:"Options",
         element:<Pop/>,
       },
     ]

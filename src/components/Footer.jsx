@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className='h-auto w-auto bg-blue-950 border-t-2 text-white flex-col justify-center items-center p-5'>
+    <div className='h-auto w-screen bg-blue-950 border-t-2 text-white flex-col justify-center items-center p-5'>
           <h1 className='mt-2 text-center font-semibold'>"Striving for <span className='text-red-600'>excellence</span> in every line of <span className='text-red-600'>code</span> ."</h1>
     <div className='h-auto w-auto bottom border-b-2 bg-blue-950 p-5 text-white flex justify-center gap-10 items-center flex-wrap relative bottom-0'>
                          
